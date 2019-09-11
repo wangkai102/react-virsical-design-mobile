@@ -1,0 +1,73 @@
+
+@import './themes/default.less';
+
+
+// 短描述
+.shor-des{
+  color: @color-text-subtitle;
+  font-size: @font-size-short-des;
+  line-height: @line-height-paragraph;
+}
+
+// 中标题
+.mid-title{
+  color: @color-text-base;
+  font-size: @font-size-base;
+  line-height: @line-height-paragraph;
+}
+
+// 副标题
+.sub-title{
+  color: @color-text-subtitle;;
+  font-size: @font-size-subtitle;
+  line-height: @line-height-paragraph;
+}
+
+// 状态box背景
+.status-text-success{
+  color: @status-success;
+  background-color: @status-bg-success;
+}
+.status-text-invalid{
+  color: @status-invalid;
+  background-color: @status-bg-invalid;
+}
+.status-text-warning{
+  color: @status-warning;
+  background-color: @status-bg-warning;
+}
+.status-text-prompt{
+  color: @status-prompt;
+  background-color: @status-bg-prompt;
+}
+.status-text-normal{
+  color: @status-normal;
+  background-color: @status-bg-normal;
+}
+
+// 状态box
+.status-text{
+  padding: 0 0.2 * @ru;
+  border-radius: 0.3 * @ru;
+  font-size: @font-size-subtitle;
+  line-height: @line-height-paragraph * @font-size-base;
+}
+
+// 状态border-left
+.status-boder-left-success{
+  border-left: 0.1 * @ru solid @status-success;
+}
+.status-boder-left-invalid{
+  border-left: 0.1 * @ru solid @status-invalid;
+}
+.status-boder-left-warning{
+  border-left: 0.1 * @ru solid @status-warning;
+}
+.status-boder-left-prompt{
+  border-left: 0.1 * @ru solid @status-prompt;
+}
+.status-boder-left-normal{
+  border-left: 0.1 * @ru solid @status-normal;
+}
+
+
